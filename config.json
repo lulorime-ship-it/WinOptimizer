@@ -1,0 +1,29 @@
+{
+    "app": {
+        "name": "WinOptimizer",
+        "version": "1.0.0",
+        "author": "lorime",
+        "email": "lorime@126.com",
+        "description": "Windows System Optimization Tool"
+    },
+    "language": "en",
+    "languages": ["zh", "en", "es"],
+    "window": {
+        "width": 1200,
+        "height": 800,
+        "min_width": 1000,
+        "min_height": 700
+    },
+    "optimization": {
+        "auto_backup": true,
+        "backup_dir": "%APPDATA%/WinOptimizer/backups"
+    },
+    "settings": {
+        "require_admin": true,
+        "auto_backup_before_optimize": true
+    },
+    "logging": {
+        "level": "INFO",
+        "max_log_entries": 500
+    }
+}
